@@ -11,6 +11,10 @@ Created on Fri Jul 23 03:32:31 2021
 
 @author: Sanni Henry
 """
+import streamlit as st
+from PIL import Image
+image = Image.open('b2ap3_amp_human-anatomy-with-heart.jpg')
+st.image(image, caption='Cardiac: With a healthy heart the beat goes on')
 
 import numpy as np
 import pickle
